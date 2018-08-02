@@ -20,7 +20,8 @@ artist2.save()
 
 album1 = Album.new(
   {
-    'album_name' => "Purple Rain"
+    'album_name' => "Purple Rain",
+    'genre' => "Pop"
   }
 )
 
@@ -28,7 +29,8 @@ album1.save()
 
 album2 = Album.new(
   {
-    'album_name' => "Thriller"
+    'album_name' => "Thriller",
+    'genre' => "Pop"
   }
 )
 
